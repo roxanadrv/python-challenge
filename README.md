@@ -12,7 +12,7 @@ PyBank contents:
     
     - Resources: Contains the CSV dataset, "budget_data.csv," used for analysis.
     
-    - analysis: Stores the results of the financial analysis, including a Word document with the analysis results.
+    - analysis: Stores the results of the financial analysis, including a text document with the analysis results.
 
 How to Use
     - Navigate to the "PyBank" folder.
@@ -22,7 +22,7 @@ How to Use
     - Run the Python script using the following command:
       python main.py
 
-    - The script will perform the financial analysis and print the results to the terminal. The analysis results are also stored in the "analysis" folder as a Word document.
+    - The script will perform the financial analysis and print the results to the terminal. The analysis results are also stored in the "analysis" folder as a text document.
 
 
 
@@ -35,7 +35,7 @@ PyPoll contents:
     
     - Resources: Contains the CSV dataset, "election_data.csv," used for analysis.
     
-    - analysis: Stores the results of the election analysis, including a Word document with the analysis results.
+    - analysis: Stores the results of the election analysis, including a text document with the analysis results.
 
 How to Use
     - Navigate to the "PyPoll" folder.
@@ -45,6 +45,6 @@ How to Use
     - Run the Python script using the following command:
       python main.py
      
-    - The script will perform the election analysis and print the results to the terminal. The analysis results are also stored in the "analysis" folder as a Word document.
+    - The script will perform the election analysis and print the results to the terminal. The analysis results are also stored in the "analysis" folder as a text document.
 
     
