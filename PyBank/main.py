@@ -1,5 +1,5 @@
 import csv
-
+import os
 
 total_months=0
 net_total=0
@@ -60,7 +60,7 @@ print(f"Greatest Increase in Profits: {greatest_increase['date']} (${greatest_in
 print(f"Greatest Decrease in Profits: {greatest_decrease['date']} (${greatest_decrease['amount']})")
 
 # Output file path
-output_file_path = "C:\\Users\\darvarir\\Documents\\Bootcamp\\python-challenge\\PyBank\\analysis\\financial_analysis.txt"
+output_file_path = os.path.join("analysis","financial_analysis.txt")
 
 # Write the results to a text file
 with open(output_file_path, 'w') as file:
