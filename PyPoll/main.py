@@ -51,4 +51,24 @@ for candidate in candidates:
 print("-------------------------")
 print(f"Winner: {winner}")
 print("-------------------------")
-                          
+
+
+# Output file path
+output_file_path = "C:\\Users\\darvarir\\Documents\\Bootcamp\\python-challenge\\PyPoll\\analysis\\election_result.txt"
+ # Write the results to a text file
+with open(output_file_path, 'w') as file:
+    file.write("Election Results\n")
+    file.write("----------------------------\n")
+    file.write(f"Total Votes: {total_votes}\n")
+    file.write("----------------------------\n")
+    for candidate in candidates:
+        votes = candidate_votes[candidate]
+        percentage = (votes / total_votes) * 100
+        file.write(f"{candidate}: {percentage:.3f}% ({votes})\n")
+    file.write("----------------------------\n")
+    file.write(f"Winner: {winner}\n")
+    file.write("----------------------------\n")
+
+
+# Optionally, you can also print the results to the console
+print("Results written to", output_file_path)                      
