@@ -72,5 +72,5 @@ with open(output_file_path, 'w') as file:
     file.write(f"Greatest Increase in Profits: {greatest_increase['date']} (${greatest_increase['amount']})\n")
     file.write(f"Greatest Decrease in Profits: {greatest_decrease['date']} (${greatest_decrease['amount']})\n")
 
-# Optionally, you can also print the results to the console
+
 print("Results written to", output_file_path)
