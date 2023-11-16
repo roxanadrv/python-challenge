@@ -54,7 +54,7 @@ print("-------------------------")
 
 
 # Output file path
-output_file_path = "C:\\Users\\darvarir\\Documents\\Bootcamp\\python-challenge\\PyPoll\\analysis\\election_result.txt"
+output_file_path = os.path.join("analysis","election_result.txt")
  # Write the results to a text file
 with open(output_file_path, 'w') as file:
     file.write("Election Results\n")
