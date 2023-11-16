@@ -58,3 +58,19 @@ print(f"Total: ${net_total}")
 print(f"Average Change: {average_change}")
 print(f"Greatest Increase in Profits: {greatest_increase['date']} (${greatest_increase['amount']})")
 print(f"Greatest Decrease in Profits: {greatest_decrease['date']} (${greatest_decrease['amount']})")
+
+# Output file path
+output_file_path = "C:\\Users\\darvarir\\Documents\\Bootcamp\\python-challenge\\PyBank\\analysis\\financial_analysis.txt"
+
+# Write the results to a text file
+with open(output_file_path, 'w') as file:
+    file.write("Financial Analysis\n")
+    file.write("----------------------------\n")
+    file.write(f"Total Months: {total_months}\n")
+    file.write(f"Total: ${net_total}\n")
+    file.write(f"Average Change: {average_change}\n")
+    file.write(f"Greatest Increase in Profits: {greatest_increase['date']} (${greatest_increase['amount']})\n")
+    file.write(f"Greatest Decrease in Profits: {greatest_decrease['date']} (${greatest_decrease['amount']})\n")
+
+# Optionally, you can also print the results to the console
+print("Results written to", output_file_path)
