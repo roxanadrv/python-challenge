@@ -70,5 +70,5 @@ with open(output_file_path, 'w') as file:
     file.write("----------------------------\n")
 
 
-# Optionally, you can also print the results to the console
+
 print("Results written to", output_file_path)                      
